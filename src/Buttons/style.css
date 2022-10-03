@@ -16,7 +16,6 @@
     margin: 10px;
   }
 }
-
 .buttons__button:hover {
   color: hsl(180, 100%, 35%);
 }
