@@ -6,13 +6,6 @@ import Buttons from "./Buttons";
 import Section from "./Section";
 import Container from "./Container";
 
-// const tasks = [
-//   { id: 1, content: "przejść na reacta", done: false },
-//   { id: 2, content: "zrobić pracę domową", done: true },
-// ];
-
-// const hideDoneTasks = false;
-
 function App() {
   const [hideDoneTasks, setHideDoneTasks] = useState(false);
   const [tasks, setTasks] = useState([
@@ -47,6 +40,9 @@ function App() {
       },
     ]);
   };
+  const setAllTasksDone = () => {
+    setTasks((tasks) => tasks.map((task) => ({ ...task, done: true })));
+  };
 
   return (
     <Container>
@@ -62,6 +58,7 @@ function App() {
             tasks={tasks}
             hideDoneTasks={hideDoneTasks}
             toggleHideDoneTasks={toggleHideDoneTasks}
+            setAllTasksDone={setAllTasksDone}
           />
         }
         sectionContent={
