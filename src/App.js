@@ -8,18 +8,17 @@ import Container from "./Container";
 
 function App() {
   const [hideDoneTasks, setHideDoneTasks] = useState(false);
+  const localStorageTasks = JSON.parse(localStorage.getItem("tasks"));
   const [tasks, setTasks] = useState(localStorageTasks);
 
   const pushTaskstoLocalStorage = () => {
-    if (tasks.lenght === 0) {
+    if (tasks.length === 0) {
       return;
     }
     localStorage.setItem("tasks", JSON.stringify(tasks));
   };
 
   useEffect(pushTaskstoLocalStorage, [tasks]);
-
-  const localStorageTasks = JSON.parse(localStorage.getItem("tasks"));
 
   const toggleHideDoneTasks = () =>
     setHideDoneTasks((hideDoneTasks) => !hideDoneTasks);
