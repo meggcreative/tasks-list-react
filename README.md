@@ -10,10 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. BEM convenction
 5. ES6+
 
-<<<<<<< HEAD
 [Come and check Your check list!](https://meggcreative.github.io/tasks-list-react/)
-=======
->>>>>>> 6c45210bc23c908279e9f55561deaf5c82bb0811
 
 ## Available Scripts
 
