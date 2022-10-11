@@ -8,10 +8,7 @@ import Container from "./Container";
 
 function App() {
   const [hideDoneTasks, setHideDoneTasks] = useState(false);
-  const [tasks, setTasks] = useState([
-    { id: 1, content: "przejść na reacta", done: false },
-    { id: 2, content: "zrobić pracę domową", done: true },
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   const toggleHideDoneTasks = () =>
     setHideDoneTasks((hideDoneTasks) => !hideDoneTasks);
@@ -31,6 +28,9 @@ function App() {
     );
   };
   const addNewTask = (newTaskContent) => {
+    if (newTaskContent.trim() === "") {
+      return;
+    }
     setTasks((tasks) => [
       ...tasks,
       {
