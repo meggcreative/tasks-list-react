@@ -9,6 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. CSS Flexbox / Grid
 4. BEM convenction
 5. ES6+
+6. Styled components
+7. Redux Toolkit
+8. React-Redux
 
 [Come and check Your check list!](https://meggcreative.github.io/tasks-list-react/)
 
