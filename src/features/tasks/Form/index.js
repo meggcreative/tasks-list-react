@@ -17,6 +17,10 @@ const Form = () => {
   const onFormSubmit = (event) => {
     event.preventDefault();
 
+    if (!newTaskContent.trim()) {
+      return;
+    }
+
     dispatch(
       addTask({
         content: newTaskContent.trim(),
