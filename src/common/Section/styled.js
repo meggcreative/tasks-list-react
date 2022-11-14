@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   background-color: white;
+  margin-bottom: 10px;
 `;
 
 export const StyledHeader = styled.header`
@@ -25,5 +26,6 @@ export const Tittle = styled.h2`
 `;
 
 export const Content = styled.div`
+  padding: 10px;
   border: 1px solid #eee;
 `;
