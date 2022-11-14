@@ -15,6 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [Come and check Your check list!](https://meggcreative.github.io/tasks-list-react/)
 
+![tasks-list](https://recordit.co/G5B4X3Dh6P)
+
 ## Available Scripts
 
 In the project directory, you can run:
