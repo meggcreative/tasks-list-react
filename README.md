@@ -12,6 +12,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 6. Styled components
 7. Redux Toolkit
 8. React-Redux
+9. Redux Saga
+10. React Router
 
 [Come and check Your check list!](https://meggcreative.github.io/tasks-list-react/)
 
