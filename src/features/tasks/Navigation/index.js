@@ -1,15 +1,15 @@
 import {
   StyledNavigation,
-  StyledNavigationItem,
-  StyledNavigationList,
+  StyledNavigationItem as StyledItem,
+  StyledNavigationList as StyledList,
 } from "./styled";
-const Navigation = (props) => {
+const Navigation = ({ bodyNavigationList, bodyNavigationList1 }) => {
   return (
     <StyledNavigation>
-      <StyledNavigationList>
-        <StyledNavigationItem>{props.bodyNavigationList}</StyledNavigationItem>
-        <StyledNavigationItem>{props.bodyNavigationList1}</StyledNavigationItem>
-      </StyledNavigationList>
+      <StyledList>
+        <StyledItem>{bodyNavigationList}</StyledItem>
+        <StyledItem>{bodyNavigationList1}</StyledItem>
+      </StyledList>
     </StyledNavigation>
   );
 };
