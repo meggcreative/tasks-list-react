@@ -7,6 +7,11 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
   &.active {
     font-weight: bold;
   }
+
   color: white;
   text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid white;
+  }
 `;

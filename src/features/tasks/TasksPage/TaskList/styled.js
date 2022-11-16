@@ -65,4 +65,9 @@ export const Content = styled.span`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
+  color: teal;
+
+  &:hover {
+    color: hsl(180, 100%, 35%);
+  }
 `;

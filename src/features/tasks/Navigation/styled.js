@@ -12,8 +12,8 @@ export const StyledNavigationList = styled.ul`
   justify-content: center;
 `;
 
-export const StyledNavigationItem = styled.ul`
+export const StyledNavigationItem = styled.li`
   padding: 10px;
   color: white;
-  text-decoration: none;
+  list-style: none;
 `;
