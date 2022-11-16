@@ -1,5 +1,5 @@
 import { Switch, Route, HashRouter, Redirect } from "react-router-dom";
-import AuthorPage from "./features/tasks/AuthorPage";
+import AuthorPage from "./features/author/AuthorPage";
 import Navigation from "./features/tasks/Navigation";
 import TaskPage from "./features/tasks/TaskPage";
 import TasksPage from "./features/tasks/TasksPage";
