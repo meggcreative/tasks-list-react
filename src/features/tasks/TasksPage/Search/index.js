@@ -11,7 +11,10 @@ const Search = () => {
   const onInputChange = (event) => {
     replaceQueryParameter({
       key: searchQueryParamName,
-      value: event.target.value.trim() !== "" ? event.target.value : undefined,
+      value:
+        event.target.value.trim() !== undefined
+          ? event.target.value
+          : undefined,
     });
   };
 
